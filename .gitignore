@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+preview/
+*_pv/
+.DS_Store
+Thumbs.db
+
+# 内部策略文档(绝不入库)
+PRELAUNCH.md
+MARKET-FORM.md

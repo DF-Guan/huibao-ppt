@@ -1,0 +1,20 @@
+{
+  "name": "brutal",
+  "label": "新野兽派",
+  "colors": {
+    "bg": "FFFDF8", "ink": "111111", "on_ink": "FFFFFF", "card": "FFFFFF",
+    "accent": "E7FF4D", "accent2": "FF9EC6", "accent3": "8DE3F0", "signal": "FF4D2E",
+    "muted": "555544", "line": "111111", "faint": "999988", "panel": "FFFFFF"
+  },
+  "type_scale": [9, 10.5, 12, 14, 17, 20, 28, 34, 44, 54],
+  "fonts": { "heading": "微软雅黑", "body": "微软雅黑", "mono": "Consolas" },
+  "decor": {
+    "depth": "hard_shadow",
+    "bullet": "number",
+    "emphasis": "color",
+    "number_style": "block",
+    "title_mark": true,
+    "rounded": false
+  },
+  "geometry": { "border_w": 2.5, "shadow_off": 0.09, "card_radius": 0 }
+}

@@ -1,0 +1,41 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install python-pptx Pillow
+
+      - name: Preflight examples (hard gate)
+        run: |
+          python scripts/preflight.py examples/deck-spec.example.json
+          python scripts/preflight.py examples/style-showcase.json
+
+      - name: Render all styles + showcase, assert zero LINT warnings
+        run: |
+          set -o pipefail
+          {
+            for st in brutal dark_premium editorial; do
+              python scripts/build_deck.py examples/deck-spec.example.json "out-$st.pptx" --style "$st"
+            done
+            python scripts/build_deck.py examples/style-showcase.json out-showcase.pptx
+          } 2>&1 | tee build.log
+          # 只匹配真警告(警告行以 "LINT: page" 开头;"LINT: 通过" 是成功提示)
+          if grep -q "^LINT: page" build.log; then
+            echo "::error::LINT warnings detected"
+            exit 1
+          fi
+          echo "All regressions green"

@@ -1,0 +1,20 @@
+{
+  "name": "dark_premium",
+  "label": "深色高级风",
+  "colors": {
+    "bg": "1B2432", "ink": "FFFFFF", "on_ink": "1B2432", "card": "222D3D",
+    "accent": "C9A25B", "accent2": "E3C98A", "accent3": "6E8B7B", "signal": "C9A25B",
+    "muted": "9AA4B5", "line": "33405A", "faint": "5A6B82", "panel": "2A3648"
+  },
+  "type_scale": [9, 10.5, 12, 14, 17, 20, 28, 34, 44, 54],
+  "fonts": { "heading": "微软雅黑", "body": "微软雅黑", "mono": "Consolas" },
+  "decor": {
+    "depth": "flat",
+    "bullet": "dash",
+    "emphasis": "color",
+    "number_style": "plain",
+    "title_mark": true,
+    "rounded": false
+  },
+  "geometry": { "border_w": 1.0, "shadow_off": 0.0, "card_radius": 0.02 }
+}

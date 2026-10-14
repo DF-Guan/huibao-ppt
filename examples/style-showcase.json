@@ -1,0 +1,85 @@
+{
+  "style": "editorial",
+  "interactive": false,
+  "transition": "fade",
+  "slides": [
+    {
+      "type": "ed_cover",
+      "kicker": "YUNLAN TECH · HALF-YEAR REVIEW",
+      "issue": "VOL.2026 — H1 EDITION",
+      "title": "Grow with\nconviction.",
+      "size": 60,
+      "spine": "汇报大师 PPT · EDITORIAL 风格标杆示例",
+      "standfirst": "A half-year of disciplined execution: revenue up, margins stable, and three product lines ready for the second half.",
+      "meta": [
+        { "label": "REVENUE (H1)", "value": "¥ 4.2 亿" },
+        { "label": "PRODUCT LINES", "value": "3 条" },
+        { "label": "CORE MARKET", "value": "华东 · 华南" }
+      ],
+      "note": "示例封面:衬线大标题 + 书脊 + 首字下沉导语,杂志感一步到位。数据为演示虚构。"
+    },
+    {
+      "type": "ed_split",
+      "kicker": "CHAPTER 01 — SCALE",
+      "numeral": "3",
+      "numeral_label": "product lines under\none technology platform",
+      "title": "One platform,\nthree engines.",
+      "quote": "数据平台、智能协作、行业解决方案——同一套技术底座,三种增长引擎。",
+      "body": "上半年三条产品线全部完成平台化改造,共享同一套数据中台与权限体系。这意味着新客户的上线周期从六周缩短到两周,而交付成本下降了四成。平台化不是技术口号,它是我们敢于承诺交付周期的底气。",
+      "note": "章节页:超大数字 + 竖发丝线 + 引文 + 首字下沉正文。"
+    },
+    {
+      "type": "ed_figures",
+      "kicker": "THE NUMBERS",
+      "title": "The half-year in four figures.",
+      "figures": [
+        { "num": "¥ 4.2亿", "label": "营业收入", "sub": "同比增长 18% (示例数据)" },
+        { "num": "38%", "label": "毛利率", "sub": "连续三个季度稳定" },
+        { "num": "1,200", "label": "新增企业客户", "sub": "续约率 94%" },
+        { "num": "2周", "label": "平均上线周期", "sub": "改造前为 6 周" }
+      ],
+      "body": "以上数字可在附录的财务明细与运营报表中逐项核对;本页只保留管理层需要记住的四个。",
+      "source": "示例数据,仅用于演示版式。",
+      "note": "数据页:头条数字 + 配角数字,主次分明。"
+    },
+    {
+      "type": "ed_report",
+      "kicker": "MARKET REPORT — H1 2026",
+      "title": "华东与华南: our strongest block",
+      "date": "H1 / 2026",
+      "focus_big": "62%",
+      "focus_label": "of revenue from 华东 + 华南",
+      "focus_text": "两大区合计贡献 62% 营收,其中制造业客户占比首次超过一半——这是平台化战略最直接的回报。",
+      "columns": [
+        { "head": "华东 — 38%", "body": "制造业数字化需求持续释放,三条产品线中数据平台增速最快,环比提升 22%。" },
+        { "head": "华南 — 24%", "body": "智能协作线在零售与物流行业拿下标杆客户,客单价同比提升 15%。" },
+        { "head": "其他区域", "body": "华北与西南处于培育期,上半年以渠道合作为主,下半年转为直营试点。" }
+      ],
+      "footnote": "示例数据,仅用于演示版式。",
+      "note": "报道页:报名双线 + 反色焦点格 + 不等宽分栏。"
+    },
+    {
+      "type": "section",
+      "number": "02",
+      "kicker": "SECTION 02",
+      "title": "Next: the\nsecond half.",
+      "subtitle": "把平台化红利变成市场份额。",
+      "note": "章节页:超大幽灵章节号。"
+    },
+    {
+      "type": "table",
+      "title": "下半年关键任务与责任矩阵",
+      "kicker": "EXECUTION",
+      "columns": ["事项", "责任团队", "完成标准", "时限", "状态"],
+      "rows": [
+        ["数据平台 3.0", "平台研发部", "查询性能提升 3 倍", "9 月底", "进行中"],
+        ["制造行业方案包", "行业解决方案部", "覆盖 5 个细分场景", "10 月中", "进行中"],
+        ["华北直营试点", "销售管理部", "签约 10 家种子客户", "Q4", "启动"],
+        ["交付自动化率", "客户成功部", "达到 60%", "Q4", "规划中"]
+      ],
+      "highlight_col": 4,
+      "note_row": "示例数据,仅用于演示版式;表格为原生对象,可直接编辑。",
+      "note": "表格页:事项/责任/标准/时限/状态一页看清。"
+    }
+  ]
+}

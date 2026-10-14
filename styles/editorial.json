@@ -1,0 +1,20 @@
+{
+  "name": "editorial",
+  "label": "杂志编辑风",
+  "colors": {
+    "bg": "FAF8F3", "ink": "1A1815", "on_ink": "FAF8F3", "card": "F1EDE4",
+    "accent": "B43A2A", "accent2": "1A1815", "accent3": "8A8577", "signal": "B43A2A",
+    "muted": "6E695F", "line": "D8D2C4", "faint": "B5AE9E", "panel": "EFEAE0"
+  },
+  "type_scale": [9, 10.5, 12, 14, 17, 20, 28, 34, 44, 60],
+  "fonts": { "heading": "微软雅黑", "body": "微软雅黑", "mono": "Consolas" },
+  "decor": {
+    "depth": "flat",
+    "bullet": "dash",
+    "emphasis": "serif",
+    "number_style": "plain",
+    "title_mark": true,
+    "rounded": false
+  },
+  "geometry": { "border_w": 0.75, "shadow_off": 0.0, "card_radius": 0 }
+}
